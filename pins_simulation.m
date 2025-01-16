@@ -15,7 +15,7 @@ prms.gMax   = 40*10^-3;   % Tesla/m, max gradient amplitude
 prms.gSlew  = 180;        % T/m/s, max gradient slew
 prms.B1max  = 15*10^-6;   % maximum B1 scanner can do[Tesla]
 %========================================================================== 
-%% preapare RF and gradient blips
+%% preapare RF and PINS gradient blips
 %========================================================================== 
 [rf,gzblips] = generatePINSpulse(d,D,dt,RFduration,Nsub,FA,prms);
 %========================================================================== 
